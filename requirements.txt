@@ -1,0 +1,30 @@
+# Support Integrity Auditor (SIA) — MARS Open Projects 2026
+# Install: pip install -r requirements.txt
+
+#  ML
+torch==2.2.2
+transformers==4.40.1
+datasets==2.19.1
+peft==0.10.0
+accelerate==0.29.3
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+imbalanced-learn==0.12.2
+xgboost==2.0.3
+
+# NLP
+spacy==3.7.4
+# After install run: python -m spacy download en_core_web_sm
+
+# Data
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+
+# Web app
+streamlit==1.33.0
+plotly==5.20.0
+
+# Utilities
+tqdm==4.66.2
+kaggle==1.6.6
